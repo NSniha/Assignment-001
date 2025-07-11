@@ -116,12 +116,12 @@ header {
     align-content: center;
     justify-items: flex-end;
 }
-.about-context > h2{
+.about-context > h2 {
     color: rgb(37, 36, 50);
     font-family: Raleway;
     font-size: 42px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 58px;
     letter-spacing: 0px;
     text-align: left;
 }
@@ -285,3 +285,136 @@ header {
 /* ---------------------------
     Reviews Section End
 ----------------------------- */
+
+
+/* ----------------------------
+    Subscribe Section Start 
+------------------------------- */
+.subscribe-section{
+    padding: 50px 0px;
+}
+.subscribe-bg{
+    padding: 80px 80px;
+    border-radius: 14px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+.subscribe-bg > h2 {
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    padding-bottom: 8px;
+}
+.subscribe-bg > p{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    padding: 10px 0px 30px 0px;
+}
+.subscribe-image{
+    padding-top: 50px;
+}
+.subscribe-image > img{
+    border-radius: 48px;
+    width: 840px;
+    height: 364.77px;
+} 
+/* -----------------------------
+    Subscribe Section End
+-------------------------------- */
+
+
+/* -----------------------------
+    Contact Section Start
+-------------------------------- */
+.contact-section{
+    padding: 50px 0px;
+}
+.contact-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.contact-context > h2{
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 110px;
+    letter-spacing: 0%;
+}
+.contact-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 10px 0px;
+}
+.contact-field > label{
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0px;
+}
+.contact-field > input{
+    border: 1px solid rgb(214, 221, 237);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    padding: 16px 18px;
+}
+.contact-field > input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0px;
+}
+.contact-field > textarea{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0px;
+    padding: 16px 18px;
+    box-sizing: border-box;
+    border: 1px solid rgb(214, 221, 237);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+}
+.contact-btn > button {
+    border-radius: 10px;
+    background: rgb(78, 71, 255);
+    width: 100%;
+    padding: 10px 36px;
+    outline: 0px;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 10px;
+    transition: background-color 0.4s ease, transform 0.4s ease;
+    transform: scale(1);
+    cursor: pointer;
+}
+.contact-btn > button:hover{
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.04);
+}
+/* ----------------------------
+    Contact Section End
+-------------------------------- */
