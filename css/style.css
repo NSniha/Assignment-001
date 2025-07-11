@@ -195,3 +195,93 @@ header {
 /* -------------------------
     User Section End
 ----------------------------- */
+
+
+/* ---------------------------
+    Reviews Section Start 
+------------------------------ */
+.reviews-section{
+    padding: 50px 0px;
+}
+.reviews-area > h2{
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.reviews-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+.review-card{
+    border: 1px solid rgb(242, 237, 237);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 24px 24px;
+}
+.review-ratings > ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 4px;
+}
+.review-ratings > ul > li{
+    width: 20px;
+    color: rgb(254, 197, 8);
+}
+.reviews-context{
+    padding: 26px 0px 25px 0px;
+}
+.reviews-context > h3 {
+    color: rgb(30, 30, 30);
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+}
+.reviews-context > p {
+    color: rgb(30, 30, 30);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    padding-top: 8px;
+}
+.review-profile-flex{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.review-img > img{
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+.reviewer-details > h4{
+    color: rgb(117, 117, 117);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+.reviewer-details > small{
+    color: rgb(179, 179, 179);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+}
+/* ---------------------------
+    Reviews Section End
+----------------------------- */
