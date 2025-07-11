@@ -418,3 +418,55 @@ header {
 /* ----------------------------
     Contact Section End
 -------------------------------- */
+
+
+/* -----------------------------
+    Footer Section Start 
+-------------------------------- */
+footer{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+    padding: 80px 100px;
+    margin-top: 50px;
+}
+.footer-context{
+    text-align: center;
+}
+.footer-logo > span{
+    color: rgb(78, 71, 255);
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.footer-context-area > p{
+    color: rgb(137, 135, 161);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    width: 531px;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+.useful-link > ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.useful-link > ul > li > a{
+    color: rgb(137, 135, 161);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+}
+/* ------------------------------
+    Footer Section End
+--------------------------------- */
