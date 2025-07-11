@@ -89,15 +89,15 @@ header {
     padding: 100px 0px;
     text-align: center;
 }
-.header-text > h1{
+.header-text > h1 {
     color: rgb(37, 36, 50);
     font-family: Raleway;
-    font-size: 70px;
+    font-size: 74px;
     font-weight: 700;
     line-height: 110px;
     letter-spacing: 0px;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 /* ------------------------
     Header Section End
@@ -248,13 +248,14 @@ header {
     letter-spacing: -0.2px;
 }
 .reviews-context > p {
-    color: rgb(30, 30, 30);
-    font-family: Inter;
+    color: rgba(37, 36, 50, 0.653);
+    font-family: 'Raleway';
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0px;
     padding-top: 8px;
+    min-height: 100px;
 }
 .review-profile-flex{
     display: flex;
@@ -266,16 +267,16 @@ header {
     width: 40px;
     height: 40px;
 }
-.reviewer-details > h4{
-    color: rgb(117, 117, 117);
+.reviewer-details > h4 {
+    color: rgb(82 82 82);
     font-family: Inter;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0px;
 }
-.reviewer-details > small{
-    color: rgb(179, 179, 179);
+.reviewer-details > small {
+    color: rgb(161 155 155);
     font-family: Inter;
     font-size: 15px;
     font-weight: 400;
@@ -304,17 +305,17 @@ header {
     font-family: Raleway;
     font-size: 50px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 65px;
     letter-spacing: 0px;
     padding-bottom: 8px;
 }
-.subscribe-bg > p{
+.subscribe-bg > p {
     color: rgba(0, 0, 0, 0.5);
-    font-family: Inter;
-    font-size: 16px;
+    font-family: 'Raleway';
+    font-size: 17px;
     font-weight: 400;
-    line-height: 140%;
-    letter-spacing: 0%;
+    line-height: 28px;
+    letter-spacing: 0px;
     padding: 10px 0px 30px 0px;
 }
 .subscribe-image{
@@ -441,14 +442,14 @@ footer{
     letter-spacing: 0px;
     text-align: center;
 }
-.footer-context-area > p{
+.footer-context-area > p {
     color: rgb(137, 135, 161);
-    font-family: Inter;
+    font-family: 'Raleway';
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0px;
-    width: 531px;
+    width: 580px;
     margin: 0 auto;
     padding: 30px 0px;
 }
